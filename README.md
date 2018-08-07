@@ -10,8 +10,9 @@ Mini Compiler compiles program written with special syntax defined for programmi
  6. textfile.txt         // Sample Code in c that is to be compiled
 
 # How to use mini Compiler:
-Start main.exe file.
-Enter file name that you want to compile i.e(textfile.txt)
-If there are no  errors in your program it will generate target code file i.e (target_textfile.asm) in the same  directory where mini compiler  is copied.
-Assemble the code with any assembler to  generate machine code. 
+  1. Start main.exe file.
+  2. Enter file name that you want to compile i.e(textfile.txt).
+  3. If there are no  errors in your program it will generate target code file i.e (target_textfile.asm) in the same  directory where mini compiler  is copied.
+  4. Assemble the code with any assembler to  generate machine code. 
+
 Note: for input output statment I have  write assembly  routines  for decimal, hexadecimal, octal, binary. That are included in MASAM folder
