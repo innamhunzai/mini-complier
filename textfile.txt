@@ -1,0 +1,25 @@
+#mode 10
+declaration
+       int a ; b
+       int i
+       int k
+       string mes1
+
+start
+     k=k*1
+     if(i<9 )then
+     i=i+9
+     k=k*1
+     endif
+     i=i-45
+     repeat
+     i=i+9*k+b
+     k=k*1
+     output "Hello World"
+     input k
+     until(i<2 )
+     while(k>3 )
+     i=i+9
+     k=k*1
+     endwhile
+end

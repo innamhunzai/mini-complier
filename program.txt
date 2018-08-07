@@ -1,0 +1,18 @@
+#mode 10
+declaration
+       int r
+       int c
+       int in
+       int flg
+
+start
+     
+     r = 0
+     flg = 1
+     while( flg == 1 )
+      if( c == 0) then
+        flg = 0
+      endif
+      c = c-1
+     endwhile
+end
